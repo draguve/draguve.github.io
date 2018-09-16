@@ -1,0 +1,13 @@
+<footer class="footer"
+{% if page.footer-text %} style="color: {{ page.footer-text }}; background: {{ page.footer-color }}" {% endif %}
+>
+    <div class="container">
+      <div class="copyright  typeset">
+        <small class="small" 
+        {% if page.footer-text %} style="color: {{ page.footer-text }};" {% endif %}
+        >&copy; {{ site.title }} {{ site.time | date: '%Y' }}</small>
+      </div>
+  
+      {% include nav-footer.html %}
+    </div>
+  </footer>
