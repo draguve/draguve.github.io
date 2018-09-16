@@ -10,6 +10,15 @@
   padding: 20px;
 }
 
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Aligner-item {
+  max-width: 50%;
+}
 // Import frameworks & theme styles
 @import
   "normalize",
