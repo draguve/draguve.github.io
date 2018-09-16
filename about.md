@@ -1,6 +1,12 @@
 ---
 layout: page
 title: About this website
+header-color: white
+header-item-current: blue
+header-item: green
+footer-color: white
+footer-text: blue
+footer-hover: green
 ---
 
 I'm not sure yet what this website is about, but I'm sure I'll work it out soon.

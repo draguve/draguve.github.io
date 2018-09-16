@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 // Import frameworks & theme styles
 @import
   "normalize",
