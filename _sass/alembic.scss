@@ -19,6 +19,11 @@
 .Aligner-item {
   max-width: 50%;
 }
+
+.jarallax {
+  position: relative;
+  z-index: 0;
+}
 // Import frameworks & theme styles
 @import
   "normalize",

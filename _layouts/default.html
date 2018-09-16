@@ -24,6 +24,8 @@
     <link rel="manifest" href="{{ "/manifest.json" | relative_url }}">
     <meta name="theme-color" content="{{ page.header-color | default: '#242e2b' }}"/>
 
+    <script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
+    
     {% if site.css_inline == true %}
       {% include site-styles.html %}
     {% else %}
