@@ -1,0 +1,13 @@
+<header class="header">
+    <div  {% if page.header-color %} style="background-color: {{ page.header-color }} ;" {% endif %}>
+        <div class="container">
+        {% if site.logo %}{% include site-logo.html %}{% endif %}
+    
+        {% include nav-header.html %}
+        </div>
+    </div>
+  
+    {% include site-feature.html %}
+  
+  </header>
+  
