@@ -10,9 +10,9 @@
       </div>
       </div>
       <div class='center column column--trio'>
-        <div>
+        <div class='center' style="width:50%">
             {% for item in site.footer_icons %}
-                <a href="{{ item[1] }}">
+                <a class='footer-icon' href="{{ item[1] }}">
                     {% assign thing = item[0] %}
                     {% include icon.html id=thing color=page.footer-text%}
                 </a>
