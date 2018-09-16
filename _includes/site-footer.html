@@ -7,7 +7,16 @@
         {% if page.footer-text %} style="color: {{ page.footer-text }};" {% endif %}
         >&copy; {{ site.title }} {{ site.time | date: '%Y' }}</small>
       </div>
-  
+
+        <div>
+            {% for item in site.footer_icons %}
+                <a href="{{ item[1] }}">
+                    {% assign thing = item[0] %}
+                    {% include icon.html id=thing color=page.footer-text%}
+                </a>
+            {% endfor %}
+        </div>
+
       {% include nav-footer.html %}
     </div>
   </footer>
