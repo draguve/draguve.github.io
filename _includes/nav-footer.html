@@ -9,12 +9,17 @@
         {% assign url = item[1] | relative_url %}
       {% endif %}
 
-      <li class="item  item--nav{% if item[1] == page.url %}  item--current{% endif %}">
-        <a href="{{ url }}" 
-        {% if page.footer-text and page.footer-hover %} style="color: {{ page.footer-text }};"
-        onMouseOver="this.style.color='{{ page.footer-hover }}'"
-        onMouseOut="this.style.color='{{ page.footer-text }}'"  {% endif %}>{{ item[0] }}</a>
-      </li>
+      <div class="copyright  typeset">
+        <small class="small">
+        <li class="item  item--nav{% if item[1] == page.url %}  item--current{% endif %}">
+          <a href="{{ url }}" 
+          {% if page.footer-text and page.footer-hover %} style="color: {{ page.footer-text }}; background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%,  rgba(0,0,0,0) 50%);"
+          onMouseOver="this.style.color='{{ page.footer-hover }}'"
+          onMouseOut="this.style.color='{{ page.footer-text }}'"  {% endif %}>{{ item[0] }}</a>
+        </li>
+      </small>
+      </div>
+
     {% endfor %}
   </ul>
 </nav>
