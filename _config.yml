@@ -37,6 +37,7 @@ navigation_header:
   Home: /
   About: /about/
   Blog: /blog/
+  Landing: /landing/
 
 # Footer nav
 navigation_footer:
