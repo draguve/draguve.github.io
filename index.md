@@ -7,6 +7,9 @@ feature_text: |
 header-color: white
 header-item-current: red
 header-item: pink
+footer-color: white
+footer-text: pink 
+footer-hover: red
 ---
 
 There isn't much going on here yet, but watch this space
