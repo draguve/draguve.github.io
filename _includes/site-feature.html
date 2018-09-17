@@ -7,14 +7,14 @@
 {% endif %}
 
 {% if feature_text or feature_image %}
-  <div class="jarallax feature Aligner" style="{% if feature_image %}background-image: url({{ feature_image }});{% endif %}
+  <div class="jarallax feature Aligner {% if page.feature_tilt %} {{ page.feature_tilt }} {% endif %}" style="{% if feature_image %}background-image: url({{ feature_image }});{% endif %}
     {% if page.feature_height %}
         min-height: {{page.feature_height}}px;
     {% else %}
         min-height: 150px;
     {% endif %}
     background-position: bottom 50px;">
-    <div class="container  typeset Aligner-item">
+    <div class="container typeset Aligner-item">
       {{ feature_text | markdownify }}
     </div>
   </div>

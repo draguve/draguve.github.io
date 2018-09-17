@@ -73,4 +73,5 @@ footer_icons:
   github: "https://github.com/draguve"
   instagram: "https://www.instagram.com/draguve/"
   
+keep_files: [assets/js/jarallax.min.js]
 
