@@ -1,0 +1,10 @@
+<main class="main container">
+    <article class="content typeset column column--sidebar">
+        <h1>{{ include.title_sidebar }}</h1>
+        {{ include.content_sidebar | markdownify }}
+    </article>
+    <article class="article  article--post  content  typeset column column--main">
+        <h1>{{ include.title }}</h1>
+        {{ include.content | markdownify }}
+    </article>
+</main>
