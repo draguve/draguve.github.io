@@ -19,6 +19,8 @@ feature2_text: |
   ## Repellat optio
 feature3_text: |
   ## dolores corrupti 
+feature4_text: |
+  ## ullamcorper nulla sed
 ---
 
 {% capture data %}
@@ -33,7 +35,7 @@ Quos atque officia quod. Suscipit delectus cupidatat, quia nulla numquam aute ci
 {% endcapture %}
 {% include paragraph.html content=data title="Lorem ipsum dolor sit amet" %}
 
-{% include feature.html feature_image='https://i.redditmedia.com/8qnurRov5zgOnjJPwm9ARDje2_utHXZegbJLWXpuW8w.jpg?s=5fcc5f96755427688d0ab9ba4149a49e' feature_text=page.feature2_text feature_height=500 feature_tilt="tilt-complete-right"%}
+{% include feature.html feature_image='https://i.redditmedia.com/8qnurRov5zgOnjJPwm9ARDje2_utHXZegbJLWXpuW8w.jpg?s=5fcc5f96755427688d0ab9ba4149a49e' feature_text=page.feature2_text feature_height=500 feature_tilt="tilt-bottom-left"%}
 
 {% capture data2 %}
 Proident consequatur voluptatibus labore commodi quos. Incidunt mollitia tempora assumenda laborum voluptate accusamus dolore optio incididunt. Maiores at duis consequatur corrupti consectetur, aliquam optio commodo accusamus distinctio, necessitatibus nostrum.
@@ -56,3 +58,33 @@ Aenean fringilla ligula vitae dictum finibus.
 {% endcapture %}
 
 {% include paragraph_sidebar.html content=data3 title="de Finibus Bonorum et Malorum" content_sidebar=data3_sidebar title_sidebar="Phasellus euismod sapien" %}
+
+{% include feature.html feature_image='https://i.redd.it/12v89htk23b01.png' feature_text=page.feature3_text feature_height=700 feature_tilt="tilt-bottom-right"%}
+
+{% capture data4 %}
+Nulla a augue fermentum lorem ultrices semper a at mauris. Vivamus molestie congue augue, eu efficitur est fermentum ut. Aliquam non tortor ut sem semper convallis. Donec mi nulla, auctor ac accumsan in, aliquam sed erat. Ut tristique condimentum viverra. Vestibulum dignissim enim et tellus viverra sodales. Fusce ac justo eleifend.
+{% endcapture %}
+
+{% capture data4_content2 %}
+non varius est vulputate. Mauris a justo vehicula mauris porttitor blandit feugiat vitae lacus. 
+Aenean fringilla ligula vitae dictum finibus.
+ Mauris vitae pretium risus
+{% endcapture %}
+
+{% capture data4_content3 %}
+lectus enim gravida urna, non convallis lectus ex sit amet ante. Curabitur vestibulum commodo tempor. Etiam et consectetur massa. Nam ornare lacinia dignissim. Suspendisse vel dui ex. Integer porta lobortis consectetur.
+{% endcapture %}
+
+{% include columns_three.html content1=data4 title1="sed aliquet volutpat" content2=data4_content2 title2="metus ut malesuada laoreet." content3=data4_content3 title3="gravida nisi. Ut vestibulum." %}
+
+{% include feature.html feature_image='https://i.redditmedia.com/0NOAKeVSD9YiewjL3PCog-NJRUmiwXMmGwv9oD-EZMI.jpg?s=fe090b107875140513277357a925e9a2' feature_text=page.feature4_text feature_height=400 feature_tilt="tilt-complete-left"%}
+
+{% capture data4 %}
+Phasellus euismod sapien at libero pellentesque, non varius est vulputate. Mauris a justo vehicula mauris porttitor blandit feugiat vitae lacus. Aenean fringilla ligula vitae dictum finibus. Mauris vitae pretium risus. Nullam placerat dolor sit amet dui sollicitudin, eget hendrerit justo ornare. Suspendisse id ex ut ipsum posuere sollicitudin nec in arcu. Sed gravida venenatis lorem, a aliquam enim bibendum ut.
+{% endcapture %}
+
+{% capture data5_content2 %}
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer pellentesque aliquam odio, sit amet venenatis mauris ultrices sagittis. In posuere vitae odio non laoreet. Integer condimentum risus convallis sem sagittis ornare. Maecenas mi ante, cursus rutrum quam eget, lacinia luctus metus. Mauris sodales gravida ante, in scelerisque justo porttitor vulputate.gravida at euismod ac, bibendum et odio. Morbi cursus finibus mauris.
+{% endcapture %}
+
+{% include columns_two.html content1=data4 title1="In nulla odio" content2=data4_content2 title2="consectetur eleifend dui vehicula ut" %}
