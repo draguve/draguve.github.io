@@ -25,6 +25,8 @@ Labore reprehenderit corporis ullam distinctio ex.
 
 Consectetur adipisicing elit, alias at autem magna aliquid quam proident quis aliquam. temporibus minus eius veniam cupidatat ex, voluptas fuga, quos, mollitia incidunt do officia facilis. molestiae consequat excepturi laborum perferendis tempor minim eiusmod minim minus quia sint.
 
+{% include figure_parallax.html image="https://i.redd.it/uyey3o7o8im11.jpg" caption="Check out my photo"%}
+
 Quos atque officia quod. Suscipit delectus cupidatat, quia nulla numquam aute cillum proident. Maiores iusto culpa molestias quam id tenetur saepe impedit reiciendis itaque ducimus itaque nostrud. Tempor aliquip, culpa earum itaque sed consequatur minus aliquip reprehenderit nihil veniam tempora do maxime omnis reiciendis elit tempora.
 {% endcapture %}
 {% include paragraph.html content=data title="Lorem ipsum dolor sit amet" %}
@@ -35,3 +37,5 @@ Quos atque officia quod. Suscipit delectus cupidatat, quia nulla numquam aute ci
 Proident dolores corrupti consequatur voluptatibus labore commodi quos. Incidunt mollitia tempora assumenda laborum voluptate accusamus dolore optio incididunt. Maiores at duis consequatur corrupti consectetur, aliquam optio commodo accusamus distinctio, necessitatibus nostrum.
 {% endcapture %}
 {% include paragraph.html content=data2 title="Voluptates mollitia quod tempore laboris commodi" %}
+
+{% include feature.html feature_image='https://i.redditmedia.com/zMBEKH-fZWl-8SmXOX8DCNIhsF7sdIaE-3mJUJrmvBM.jpg?s=94a98dea23bd4d22411aeaf61b16fd51' feature_text=page.feature2_text feature_height=600 feature_tilt="tilt-complete-right"%}
