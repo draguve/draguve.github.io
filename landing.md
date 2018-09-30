@@ -35,7 +35,7 @@ Quos atque officia quod. Suscipit delectus cupidatat, quia nulla numquam aute ci
 {% endcapture %}
 {% include paragraph.html content=data title="Lorem ipsum dolor sit amet" %}
 
-{% include feature.html feature_image='https://i.redditmedia.com/8qnurRov5zgOnjJPwm9ARDje2_utHXZegbJLWXpuW8w.jpg?s=5fcc5f96755427688d0ab9ba4149a49e' feature_text=page.feature2_text feature_height=500 feature_tilt="tilt-bottom-left"%}
+{% include feature_nomd.html feature_image='https://i.redditmedia.com/8qnurRov5zgOnjJPwm9ARDje2_utHXZegbJLWXpuW8w.jpg?s=5fcc5f96755427688d0ab9ba4149a49e' feature_text="Draguve" feature_height=500 feature_tilt="tilt-bottom-left" text_color="white"%}
 
 {% capture data2 %}
 Proident consequatur voluptatibus labore commodi quos. Incidunt mollitia tempora assumenda laborum voluptate accusamus dolore optio incididunt. Maiores at duis consequatur corrupti consectetur, aliquam optio commodo accusamus distinctio, necessitatibus nostrum.
