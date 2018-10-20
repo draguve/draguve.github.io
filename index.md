@@ -1,23 +1,42 @@
 ---
-title: Welcome to my website
-layout: page
-feature_height: 300
-feature_image: "https://picsum.photos/1300/400?image=989"
-feature_text: |
-  ## Hello world
-header-color: white
+title: Draguve
+layout: complex_page
+
+feature_height: 1000
+feature_image: "http://127.0.0.1:4000/assets/img/leds.jpg"
+feature_tilt: "tilt-bottom-left"
+
+header-color: black
 header-item-current: red
 header-item: pink
 footer-color: white
 footer-text: pink 
 footer-hover: red
 ---
+{% capture data4 %}
 
-There isn't much going on here yet, but watch this space
-Lorem ipsum dolor sit amet
-Labore reprehenderit corporis ullam distinctio ex.
+{% include figure.html image="/assets/img/thing.gif" caption=" do maxime omnis reiciendis elit tempora. do maxime"%}
 
-Consectetur adipisicing elit, alias at autem magna aliquid quam proident quis aliquam. temporibus minus eius veniam cupidatat ex, voluptas fuga, quos, mollitia incidunt do officia facilis. molestiae consequat excepturi laborum perferendis tempor minim eiusmod minim minus quia sint.
+Nulla a augue fermentum lorem ultrices semper a at mauris. Vivamus molestie congue augue, eu efficitur est fermentum ut. Aliquam non tortor ut sem semper convallis. Donec mi nulla, auctor ac accumsan in, aliquam sed erat. Ut tristique condimentum viverra. Vestibulum dignissim enim et tellus viverra sodales. Fusce ac justo eleifend.
+{% endcapture %}
 
-Quos atque officia quod. Suscipit delectus cupidatat, quia nulla numquam aute cillum proident. Maiores iusto culpa molestias quam id tenetur saepe impedit reiciendis itaque ducimus itaque nostrud. Tempor aliquip, culpa earum itaque sed consequatur minus aliquip reprehenderit nihil veniam tempora do maxime omnis reiciendis elit tempora.
+{% capture data4_content2 %}
+
+{% include figure.html image="/assets/img/thing2.gif" caption=" do maxime omnis reiciendis elit tempora."%}
+
+non varius est vulputate. Mauris a justo vehicula mauris porttitor blandit feugiat vitae lacus. 
+Aenean fringilla ligula vitae dictum finibus.
+ Mauris vitae pretium risus
+{% endcapture %}
+
+{% capture data4_content3 %}
+
+{% include figure.html image="/assets/img/thing3.gif" caption=" do maxime omnis reiciendis elit tempora."%}
+
+lectus enim gravida urna, non convallis lectus ex sit amet ante. Curabitur vestibulum commodo tempor. Etiam et consectetur massa. Nam ornare lacinia dignissim. Suspendisse vel dui ex. Integer porta lobortis consectetur.
+{% endcapture %}
+
+  {% include columns_three.html content1=data4 title1="sed aliquet volutpat aliquet" content2=data4_content2 title2="metus ut malesuada laoreet." content3=data4_content3 title3="gravida nisi. Ut vestibulum." %}
+
+---
 
