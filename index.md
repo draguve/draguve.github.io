@@ -2,10 +2,12 @@
 title: Draguve
 layout: complex_page
 
-feature_height: 1000
+feature_height: 400
 feature_image: "http://127.0.0.1:4000/assets/img/leds.jpg"
 feature_tilt: "tilt-bottom-left"
-
+feature_text: |
+  ## Draguve
+feature_text_color: white
 header-color: black
 header-item-current: red
 header-item: pink
@@ -13,30 +15,43 @@ footer-color: white
 footer-text: pink 
 footer-hover: red
 ---
+
+
+{% capture data %}
+Shite i need to write , What do i write???
+help me email at draguve@gmail.com
+{% include figure_parallax.html image="https://i.redd.it/0pa8ztwwl5811.jpg" caption=" do maxime omnis reiciendis elit tempora."%}
+{% endcapture %}
+{% include paragraph.html content=data title="Hi, I’m Draguve. Nice to meet you." %}
+
+{% include feature_nomd.html feature_image='https://i.redditmedia.com/8qnurRov5zgOnjJPwm9ARDje2_utHXZegbJLWXpuW8w.jpg?s=5fcc5f96755427688d0ab9ba4149a49e' feature_text="Recent Projects" feature_height=300 feature_tilt="tilt-bottom-right" text_color="white"%}
+
 {% capture data4 %}
 
-{% include figure.html image="/assets/img/thing.gif" caption=" do maxime omnis reiciendis elit tempora. do maxime"%}
+# DroidDucky
+{% include figure.html image="/assets/img/thing.gif" caption="Basic duckyscript exploit in progress"%}
 
-Nulla a augue fermentum lorem ultrices semper a at mauris. Vivamus molestie congue augue, eu efficitur est fermentum ut. Aliquam non tortor ut sem semper convallis. Donec mi nulla, auctor ac accumsan in, aliquam sed erat. Ut tristique condimentum viverra. Vestibulum dignissim enim et tellus viverra sodales. Fusce ac justo eleifend.
+DroidDucky is an Android app to run a USB-Rubber-Ducky type attack through your Android phone.  
+Computers recognize it as a regular keyboard and accept pre-programmed keystroke payloads.  
+This is done using a rooted android device with a custom kernel akin to a Kali Nethunter device with lesser dependecies
 {% endcapture %}
 
 {% capture data4_content2 %}
-
-{% include figure.html image="/assets/img/thing2.gif" caption=" do maxime omnis reiciendis elit tempora."%}
-
-non varius est vulputate. Mauris a justo vehicula mauris porttitor blandit feugiat vitae lacus. 
-Aenean fringilla ligula vitae dictum finibus.
- Mauris vitae pretium risus
+# PCG in Unity
+{% include figure.html image="/assets/img/thing2.gif" caption="Procedurally generated cube map"%}
+Procedural content generation is the programmatic generation of game content using a random or pseudo-random process that results in an unpredictable range of possible game play spaces.   
+Over the years I have tried to improve my skill at writing to code to create procedurally generate content be it stories,color palettes,textures , or level meshes 
 {% endcapture %}
 
 {% capture data4_content3 %}
+# WhatsSpam
+{% include figure.html image="/assets/img/thing3.gif" caption="Autospam script in progress"%}
 
-{% include figure.html image="/assets/img/thing3.gif" caption=" do maxime omnis reiciendis elit tempora."%}
-
-lectus enim gravida urna, non convallis lectus ex sit amet ante. Curabitur vestibulum commodo tempor. Etiam et consectetur massa. Nam ornare lacinia dignissim. Suspendisse vel dui ex. Integer porta lobortis consectetur.
+WhatsSpam is a python script to automate sending sending messages throught the WhatsApp messaging service.  
+It uses selenium to automate the browser and uses the services' desktop web interface to send the messages. It also stores and loads browser caches to allow the user to store previously used user id's
 {% endcapture %}
-
-  {% include columns_three.html content1=data4 title1="sed aliquet volutpat aliquet" content2=data4_content2 title2="metus ut malesuada laoreet." content3=data4_content3 title3="gravida nisi. Ut vestibulum." %}
+  
+{% include columns_three.html content1=data4 content2=data4_content2 content3=data4_content3%}
 
 ---
 

@@ -4,6 +4,7 @@
   {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
   {% assign feature_text = collectiondata.feature_text %}
   {% assign feature_image = collectiondata.feature_image %}
+  {% assign feature_text_color = collectiondata.feature_text_color %}
 {% endif %}
 
 {% if feature_text or feature_image %}
@@ -14,7 +15,7 @@
         min-height: 150px;
     {% endif %}
     background-position: bottom 50px;">
-    <div class="container typeset Aligner-item">
+    <div class="container typeset Aligner-item {% if feature_text_color %} color:{{ feature_text_color }};{% endif %}">
       {{ feature_text | markdownify }}
     </div>
   </div>
