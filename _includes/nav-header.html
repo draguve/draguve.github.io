@@ -59,7 +59,8 @@ applyToggle('.list--nav', '.button', 640)
 
 window.onload = function() {
   jarallax(document.querySelectorAll('.jarallax'), {
-      speed: 0.2
+      speed: 0.2,
+      disableParallax: /iPad|iPhone|iPod|Android/
   });
 };
 

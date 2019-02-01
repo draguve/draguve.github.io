@@ -2,11 +2,9 @@
 title: Draguve
 layout: complex_page
 
-feature_height: 400
-feature_image: "http://127.0.0.1:4000/assets/img/leds.jpg"
+feature_height: 700
+feature_image: "/assets/img/feature.jpg"
 feature_tilt: "tilt-bottom-left"
-feature_text: |
-  ## Draguve
 feature_text_color: white
 header-color: black
 header-item-current: red
@@ -24,7 +22,7 @@ help me email at draguve@gmail.com
 {% endcapture %}
 {% include paragraph.html content=data title="Hi, I’m Draguve. Nice to meet you." %}
 
-{% include feature_nomd.html feature_image='https://i.redditmedia.com/8qnurRov5zgOnjJPwm9ARDje2_utHXZegbJLWXpuW8w.jpg?s=5fcc5f96755427688d0ab9ba4149a49e' feature_text="Recent Projects" feature_height=300 feature_tilt="tilt-bottom-right" text_color="white"%}
+{% include feature_nomd.html feature_image='/assets/img/leds.jpg' feature_text="Recent Projects" feature_height=300 feature_tilt="tilt-bottom-right" text_color="white"%}
 
 {% capture data4 %}
 

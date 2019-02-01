@@ -75,3 +75,7 @@ footer_icons:
   
 keep_files: [assets/js/jarallax.min.js]
 
+# deployment
+host: 0.0.0.0
+port: 5000
+
