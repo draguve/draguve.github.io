@@ -6,23 +6,30 @@ feature_height: 700
 feature_image: "/assets/img/feature.jpg"
 feature_tilt: "tilt-bottom-left"
 feature_text_color: white
-header-color: black
-header-item-current: red
-header-item: pink
+header-color: '#F1F1F1'
+header-item-current: '#FE7471'
+header-item: '#68708F'
 footer-color: white
 footer-text: pink 
 footer-hover: red
 ---
 
+{% capture data3 %}
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
 
-{% capture data %}
-Shite i need to write , What do i write???
-help me email at draguve@gmail.com
-{% include figure_parallax.html image="https://i.redd.it/0pa8ztwwl5811.jpg" caption=" do maxime omnis reiciendis elit tempora."%}
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
 {% endcapture %}
-{% include paragraph.html content=data title="Hi, I’m Draguve. Nice to meet you." %}
 
-{% include feature_nomd.html feature_image='/assets/img/leds.jpg' feature_text="Recent Projects" feature_height=300 feature_tilt="tilt-bottom-right" text_color="white"%}
+{% capture data3_sidebar %}
+non varius est vulputate. Mauris a justo vehicula mauris porttitor blandit feugiat vitae lacus. 
+Aenean fringilla ligula vitae dictum finibus.
+ Mauris vitae pretium risus
+{% include figure_parallax.html image="https://i.redd.it/5gx7g86aq2nz.jpg" caption=" Quis autem vel eum iure"%}
+{% endcapture %}
+
+{% include paragraph_sidebar.html content=data3 title="de Finibus Bonorum et Malorum" content_sidebar=data3_sidebar title_sidebar="Phasellus euismod sapien" %}
+
+{% include feature_nomd.html feature_image='/assets/img/leds.jpg' feature_text="Recent Projects" feature_height=300 feature_tilt="tilt-complete-right" text_color="white"%}
 
 {% capture data4 %}
 
