@@ -21,10 +21,7 @@ Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, ad
 {% endcapture %}
 
 {% capture data3_sidebar %}
-non varius est vulputate. Mauris a justo vehicula mauris porttitor blandit feugiat vitae lacus. 
-Aenean fringilla ligula vitae dictum finibus.
- Mauris vitae pretium risus
-{% include figure_parallax.html image="https://i.redd.it/5gx7g86aq2nz.jpg" caption=" Quis autem vel eum iure"%}
+{% include figure.html image="/assets/img/uglymug.jpg" caption=" Quis autem vel eum iure"%}
 {% endcapture %}
 
 {% include paragraph_sidebar.html content=data3 title="de Finibus Bonorum et Malorum" content_sidebar=data3_sidebar title_sidebar="Phasellus euismod sapien" %}
