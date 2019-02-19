@@ -26,6 +26,11 @@
 
     <script src="{{ "/assets/js/jarallax.min.js" | relative_url }}"></script>
     
+    <link rel="stylesheet" href="{{ "/assets/css/animate.css" | relative_url }}">
+    <script src="{{ "/assets/js/wow.min.js" | relative_url }}"></script>
+    <script>
+      new WOW().init();
+    </script>
     {% if site.css_inline == true %}
       {% include site-styles.html %}
     {% else %}

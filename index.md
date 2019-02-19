@@ -21,7 +21,7 @@ Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, ad
 {% endcapture %}
 
 {% capture data3_sidebar %}
-{% include figure.html image="/assets/img/uglymug.jpg" caption=" Quis autem vel eum iure"%}
+{% include dfigure.html image="/assets/img/uglymug.jpg" caption=" Quis autem vel eum iure" animation="slideInLeft"%}
 {% endcapture %}
 
 {% include paragraph_sidebar.html content=data3 title="de Finibus Bonorum et Malorum" content_sidebar=data3_sidebar title_sidebar="Phasellus euismod sapien" %}
@@ -31,7 +31,7 @@ Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, ad
 {% capture data4 %}
 
 # DroidDucky
-{% include figure.html image="/assets/img/thing.gif" caption="Basic duckyscript exploit in progress"%}
+{% include dfigure.html image="/assets/img/thing.gif" caption="Basic duckyscript exploit in progress" animation="slideInLeft"%}
 
 DroidDucky is an Android app to run a USB-Rubber-Ducky type attack through your Android phone.  
 Computers recognize it as a regular keyboard and accept pre-programmed keystroke payloads.  
@@ -40,14 +40,14 @@ This is done using a rooted android device with a custom kernel akin to a Kali N
 
 {% capture data4_content2 %}
 # PCG in Unity
-{% include figure.html image="/assets/img/thing2.gif" caption="Procedurally generated cube map"%}
+{% include dfigure.html image="/assets/img/thing2.gif" caption="Procedurally generated cube map" animation="slideInUp"%}
 Procedural content generation is the programmatic generation of game content using a random or pseudo-random process that results in an unpredictable range of possible game play spaces.   
 Over the years I have tried to improve my skill at writing to code to create procedurally generate content be it stories,color palettes,textures , or level meshes 
 {% endcapture %}
 
 {% capture data4_content3 %}
 # WhatsSpam
-{% include figure.html image="/assets/img/thing3.gif" caption="Autospam script in progress"%}
+{% include dfigure.html image="/assets/img/thing3.gif" caption="Autospam script in progress" animation="slideInRight"%}
 
 WhatsSpam is a python script to automate sending sending messages throught the WhatsApp messaging service.  
 It uses selenium to automate the browser and uses the services' desktop web interface to send the messages. It also stores and loads browser caches to allow the user to store previously used user id's
