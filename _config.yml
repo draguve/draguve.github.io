@@ -18,6 +18,8 @@ plugins:
 - jekyll-feed
 - jemoji
 - jekyll-remote-theme
+- jekyll-compress-images
+
 
 # Site settings
 url: 'https://draguve.github.com'
