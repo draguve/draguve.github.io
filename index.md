@@ -33,7 +33,7 @@ I have a problem finding words.Im Sorry if it takes me a while
 {% capture data4 %}
 
 # DroidDucky
-{% include dfigure.html image="/assets/img/thing.gif" caption="Basic duckyscript exploit in progress" animation="fadeInLeft"%}
+{% include dvid.html image="/assets/img/thing.mp4" caption="Basic duckyscript exploit in progress" animation="fadeInLeft"%}
 
 DroidDucky is an Android app to run a USB-Rubber-Ducky type attack through your Android phone.  
 Computers recognize it as a regular keyboard and accept pre-programmed keystroke payloads.  
@@ -42,14 +42,14 @@ This is done using a rooted android device with a custom kernel akin to a Kali N
 
 {% capture data4_content2 %}
 # PCG in Unity
-{% include dfigure.html image="/assets/img/thing2.gif" caption="Procedurally generated cube map" animation="fadeInLeft"%}
+{% include dvid.html image="/assets/img/thing2.mp4" caption="Procedurally generated cube map" animation="fadeInLeft"%}
 Procedural content generation is the programmatic generation of game content using a random or pseudo-random process that results in an unpredictable range of possible game play spaces.   
 Over the years I have tried to improve my skill at writing to code to create procedurally generate content be it stories,color palettes,textures , or level meshes 
 {% endcapture %}
 
 {% capture data4_content3 %}
 # WhatsSpam
-{% include dfigure.html image="/assets/img/thing3.gif" caption="Autospam script in progress" animation="fadeInRight"%}
+{% include dvid.html image="/assets/img/thing3.mp4" caption="Autospam script in progress" animation="fadeInRight"%}
 
 WhatsSpam is a python script to automate sending sending messages throught the WhatsApp messaging service.  
 It uses selenium to automate the browser and uses the services' desktop web interface to send the messages. It also stores and loads browser caches to allow the user to store previously used user id's
