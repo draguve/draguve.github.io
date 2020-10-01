@@ -1,3 +1,0 @@
-ffmpeg -i animated.gif -b:v 0 -crf 25 video.mp4 
-
-converting gifs to videos
