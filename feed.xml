@@ -6,13 +6,13 @@
 </description>
     <link>https://www.draguve.wtf</link>
     <atom:link href="https://www.draguve.wtf/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Oct 2020 18:24:04 +0530</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2020 18:24:04 +0530</lastBuildDate>
+    <pubDate>Mon, 05 Oct 2020 01:37:53 +0530</pubDate>
+    <lastBuildDate>Mon, 05 Oct 2020 01:37:53 +0530</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>HID attacks using an Android Phone</title>
-        <description>&lt;p&gt;When the Kali Nethunter was first in 2014, I was interested in testing out the HID attacks that they showed off in the initial presentation but, at the time I was didn’t have any of the devices that they officially supported and porting the release was not something I could conceivable do with my skill set. So that left me we with the only option to read the code for the &lt;a href=&quot;https://gitlab.com/kalilinux/nethunter/apps/kali-nethunter-app&quot;&gt;Nethunter App&lt;/a&gt;.&lt;/p&gt;
+        <description>&lt;p&gt;When the Kali Nethunter was first in 2014, I was interested in testing out the HID attacks that they showed off in the initial presentation but, at the time I was didn’t have any of the devices that they officially supported and porting the release was not something I could conceivably do with my skill set. So that left me we with the only option ,To read the code for the &lt;a href=&quot;https://gitlab.com/kalilinux/nethunter/apps/kali-nethunter-app&quot;&gt;Nethunter App&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;dissection&quot;&gt;Dissection&lt;/h2&gt;
 
