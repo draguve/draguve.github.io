@@ -6,8 +6,8 @@
 </description>
     <link>https://www.draguve.wtf</link>
     <atom:link href="https://www.draguve.wtf/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Feb 2021 15:41:19 +0530</pubDate>
-    <lastBuildDate>Thu, 11 Feb 2021 15:41:19 +0530</lastBuildDate>
+    <pubDate>Thu, 11 Feb 2021 16:09:54 +0530</pubDate>
+    <lastBuildDate>Thu, 11 Feb 2021 16:09:54 +0530</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -32,7 +32,7 @@
         <title>On Spotify Playlist Images</title>
         <description>&lt;h1 id=&quot;spotify-playlist-image-changer&quot;&gt;&lt;a href=&quot;https://playlistchanger.herokuapp.com/&quot;&gt;Spotify Playlist Image Changer&lt;/a&gt;&lt;/h1&gt;
 
-&lt;p&gt;As someone who uses Spotify as their primary service to listen to music, I simply do not understand why we can’t change the images of playlists that we create from inside their Android/iOS App and have to either use the desktop app or find a 3rd Party service. I couldn’t find one that just did that wasn’t bloated. So I took matters in my own hands. Hope &lt;a href=&quot;https://playlistchanger.herokuapp.com/&quot;&gt;this&lt;/a&gt; helps you as much as it did me.&lt;/p&gt;
+&lt;p&gt;As someone who uses Spotify as their primary service to listen to music, I simply do not understand why we can’t change the images of playlists that we create from inside their Android/iOS App and have to either use the desktop app or find a 3rd Party service. I couldn’t find one that just did that and wasn’t bloated. So I took matters in my own hands. Hope &lt;a href=&quot;https://playlistchanger.herokuapp.com/&quot;&gt;this&lt;/a&gt; helps you as much as it did me.&lt;/p&gt;
 
 &lt;p&gt;It would ask you to login into your spotify account when you first go to the webpage.&lt;/p&gt;
 
