@@ -6,13 +6,54 @@
 </description>
     <link>https://www.draguve.wtf</link>
     <atom:link href="https://www.draguve.wtf/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Oct 2020 01:37:53 +0530</pubDate>
-    <lastBuildDate>Mon, 05 Oct 2020 01:37:53 +0530</lastBuildDate>
+    <pubDate>Thu, 11 Feb 2021 15:41:19 +0530</pubDate>
+    <lastBuildDate>Thu, 11 Feb 2021 15:41:19 +0530</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
+        <title>Shivers</title>
+        <description>&lt;h3 id=&quot;music-pair&quot;&gt;Music Pair&lt;/h3&gt;
+&lt;iframe src=&quot;https://open.spotify.com/embed/track/6NIBWoV4UHNBI86YEwMQg8&quot; width=&quot;300&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Fri, 29 Jan 2021 00:00:00 +0530</pubDate>
+        <link>https://www.draguve.wtf/2021/01/29/shivers/</link>
+        <guid isPermaLink="true">https://www.draguve.wtf/2021/01/29/shivers/</guid>
+        
+        <category>Music</category>
+        
+        <category>Acrylic</category>
+        
+        <category>Pain</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>On Spotify Playlist Images</title>
+        <description>&lt;h1 id=&quot;spotify-playlist-image-changer&quot;&gt;&lt;a href=&quot;https://playlistchanger.herokuapp.com/&quot;&gt;Spotify Playlist Image Changer&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;As someone who uses Spotify as their primary service to listen to music, I simply do not understand why we can’t change the images of playlists that we create from inside their Android/iOS App and have to either use the desktop app or find a 3rd Party service. I couldn’t find one that just did that wasn’t bloated. So I took matters in my own hands. Hope &lt;a href=&quot;https://playlistchanger.herokuapp.com/&quot;&gt;this&lt;/a&gt; helps you as much as it did me.&lt;/p&gt;
+
+&lt;p&gt;It would ask you to login into your spotify account when you first go to the webpage.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://open.spotify.com/embed/playlist/7FiuGF7uQvr3ORzDKYIqVD&quot; width=&quot;300&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Fri, 29 Jan 2021 00:00:00 +0530</pubDate>
+        <link>https://www.draguve.wtf/2021/01/29/playlist-images/</link>
+        <guid isPermaLink="true">https://www.draguve.wtf/2021/01/29/playlist-images/</guid>
+        
+        <category>Music</category>
+        
+        <category>Spotify</category>
+        
+        <category>Pain</category>
+        
+        
+      </item>
+    
+      <item>
         <title>HID attacks using an Android Phone</title>
-        <description>&lt;p&gt;When the Kali Nethunter was first in 2014, I was interested in testing out the HID attacks that they showed off in the initial presentation but, at the time I was didn’t have any of the devices that they officially supported and porting the release was not something I could conceivably do with my skill set. So that left me we with the only option ,To read the code for the &lt;a href=&quot;https://gitlab.com/kalilinux/nethunter/apps/kali-nethunter-app&quot;&gt;Nethunter App&lt;/a&gt;.&lt;/p&gt;
+        <description>&lt;p&gt;When the Kali Nethunter was first in 2014, I was interested in testing out the HID attacks that they showed off in the initial presentation but, at the time I was didn’t have any of the devices that they officially supported and porting the release was not something I could conceivable do with my skill set. So that left me we with the only option to read the code for the &lt;a href=&quot;https://gitlab.com/kalilinux/nethunter/apps/kali-nethunter-app&quot;&gt;Nethunter App&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;dissection&quot;&gt;Dissection&lt;/h2&gt;
 
