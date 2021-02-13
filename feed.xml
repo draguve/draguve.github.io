@@ -6,18 +6,60 @@
 </description>
     <link>https://www.draguve.wtf</link>
     <atom:link href="https://www.draguve.wtf/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Feb 2021 16:09:54 +0530</pubDate>
-    <lastBuildDate>Thu, 11 Feb 2021 16:09:54 +0530</lastBuildDate>
+    <pubDate>Sun, 14 Feb 2021 01:17:05 +0530</pubDate>
+    <lastBuildDate>Sun, 14 Feb 2021 01:17:05 +0530</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>On Documentation</title>
+        <description>&lt;h2 id=&quot;demo&quot;&gt;&lt;a href=&quot;http://class-graph.herokuapp.com/graph/draguve&quot;&gt;Demo&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;I was working on a demo for a game in Unity when I had the age-old problem of forgetting how the code I wrote yesterday worked. So I decided then on I would write documentation on the code as I wrote it. But a few days later, I found myself in the same situation as I did a few days back. The documentation though helpful, still had me fundamentally staring at a wall of text. How does it matter if I read code or the description, In fact, one could argue reading the code might just be better there would be no information lost in translation in that case. The wall of text is nice to read when learning something new but it seems like a waste of time to read through multiple pages when I only need some specific information. This lead me to the thought that documentation instead of text should be instead more visual.&lt;/p&gt;
+
+&lt;p&gt;Like the tweet below shows , technical documentation should be simple and exact.&lt;/p&gt;
+&lt;center&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;How a career in technical writing ruined me as a letter writer &lt;a href=&quot;https://t.co/atLXrxRCXb&quot;&gt;pic.twitter.com/atLXrxRCXb&lt;/a&gt;&lt;/p&gt;&amp;mdash; Karl Kovacs (@karlkovacs) &lt;a href=&quot;https://twitter.com/karlkovacs/status/716653585686114304?ref_src=twsrc%5Etfw&quot;&gt;April 3, 2016&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The human brain is very good at processing images. Our visual processing centres are capable of interpreting highly complex visual data almost instantaneously. UML helps but the interface needs to be more interactive instead of being an image. If something allowed searching and tagging information it could seriously help things.&lt;a href=&quot;http://class-graph.herokuapp.com/graph/draguve&quot;&gt;I couldn’t anything similar so I thought I should make something just as a demo to test if the idea works&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are lots of features that are missing here that could make this really useful but I think this serves as a good starting point to check if something like this is really useful or just too much work.&lt;/p&gt;
+
+&lt;h4 id=&quot;how-to-use-it&quot;&gt;How to use it&lt;/h4&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Middle-Click and Drag to move around
+Ctrl-Click to add new nodes
+Hold Shift and Drag from one node to another to create a new link
+Click any item to see and change information about that item 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;stuff-that-could-be-added&quot;&gt;Stuff that could be added?&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Better ways to select and move around information.&lt;/li&gt;
+  &lt;li&gt;Allowing multiple people to edit at the same time (Operational transformation).&lt;/li&gt;
+  &lt;li&gt;A Better way to add information that is intrinsic to the item(sub-items).&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 13 Feb 2021 00:00:00 +0530</pubDate>
+        <link>https://www.draguve.wtf/2021/02/13/documentation/</link>
+        <guid isPermaLink="true">https://www.draguve.wtf/2021/02/13/documentation/</guid>
+        
+        <category>Demo</category>
+        
+        <category>Documentation</category>
+        
+        <category>Pain</category>
+        
+        
+      </item>
     
       <item>
         <title>Shivers</title>
         <description>&lt;h3 id=&quot;music-pair&quot;&gt;Music Pair&lt;/h3&gt;
 &lt;iframe src=&quot;https://open.spotify.com/embed/track/6NIBWoV4UHNBI86YEwMQg8&quot; width=&quot;300&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
 </description>
-        <pubDate>Fri, 29 Jan 2021 00:00:00 +0530</pubDate>
-        <link>https://www.draguve.wtf/2021/01/29/shivers/</link>
-        <guid isPermaLink="true">https://www.draguve.wtf/2021/01/29/shivers/</guid>
+        <pubDate>Mon, 01 Feb 2021 00:00:00 +0530</pubDate>
+        <link>https://www.draguve.wtf/2021/02/01/shivers/</link>
+        <guid isPermaLink="true">https://www.draguve.wtf/2021/02/01/shivers/</guid>
         
         <category>Music</category>
         
@@ -38,9 +80,9 @@
 
 &lt;iframe src=&quot;https://open.spotify.com/embed/playlist/7FiuGF7uQvr3ORzDKYIqVD&quot; width=&quot;300&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
 </description>
-        <pubDate>Fri, 29 Jan 2021 00:00:00 +0530</pubDate>
-        <link>https://www.draguve.wtf/2021/01/29/playlist-images/</link>
-        <guid isPermaLink="true">https://www.draguve.wtf/2021/01/29/playlist-images/</guid>
+        <pubDate>Mon, 07 Dec 2020 00:00:00 +0530</pubDate>
+        <link>https://www.draguve.wtf/2020/12/07/playlist-images/</link>
+        <guid isPermaLink="true">https://www.draguve.wtf/2020/12/07/playlist-images/</guid>
         
         <category>Music</category>
         
